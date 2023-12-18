@@ -1,0 +1,41 @@
+body,div,a,p{
+	padding:0;
+	margin:0;
+}
+#game{
+	width:512px;
+	height:500px;
+	background:url("./images/bg.png") no-repeat 0  -260px;
+}
+#player{
+	position:absolute;
+	top:420px;
+	left:180px;
+}
+#eshot0{
+	display:none;
+	position:absolute;
+}
+#score {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 24px;
+	color: white;
+}
+#health {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 24px;
+	color: white;
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+.blinking {
+	animation: blink 0.5s infinite;
+}

@@ -1,0 +1,50 @@
+body,div,a,p,span{
+	padding:0;
+	margin:0;
+}
+#bg{
+	width:512px;
+	height:650px;
+	background:url(./img/bg.png);
+	margin:0 auto;
+}
+body{
+	background:rgb(249, 249, 249);
+}
+.logo{
+	width:512px;
+	height:350px;
+	position:relative;
+	top:50px;
+	background:url(./img/logo.png) no-repeat;
+	background-size:100%;
+}
+#buttonstart{
+	width:200px;
+	height:110px;
+	background:url(./img/button_start.png) no-repeat;
+	background-size:100%;
+	margin:0 auto;
+}
+#buttonstart:hover{
+	width:240px;
+	height:130px;
+	background:url(./img/button_start.png) no-repeat;
+	background-size:100%;
+	cursor:pointer;
+}
+#buttonalert{
+	width:200px;
+	height:110px;
+	background:url(./img/button.png) no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	margin-top:20px;
+}
+#buttonalert:hover{
+	width:240px;
+	height:130px;
+	background:url(./img/button.png) no-repeat;
+	background-size:100%;
+	cursor:pointer;
+}
